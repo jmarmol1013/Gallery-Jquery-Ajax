@@ -1,0 +1,45 @@
+[
+      {
+        "id": 0,
+        "name":"Landscape 1",
+        "time":8000,
+        "source":"Images/img1.jpeg"
+      },
+      {
+        "id": 1,
+        "name":"Landscape 2",
+        "time":10000,
+        "source":"Images/img2.jpeg"
+      },
+      {
+        "id": 2,
+        "name":"Landscape 3",
+        "time":8000,
+        "source":"Images/img3.jpg"
+      },
+      {
+        "id": 3,
+        "name":"Landscape 4",
+        "time":7000,
+        "source":"Images/img4.jpg"
+      },
+      {
+        "id": 4,
+        "name":"Landscape 5",
+        "time":9000,
+        "source":"Images/img5.jpg"
+      },
+      {
+        "id": 5,
+        "name":"Landscape 6",
+        "time":10000,
+        "source":"Images/img6.jpg"
+      },
+      {
+        "id": 6,
+        "name":"Landscape 7",
+        "time":9000,
+        "source":"Images/img7.jpg"
+      }
+    ]
+    

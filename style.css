@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color:#90C4DE;
+    padding: 20px;
+    margin: -20px -20px;
+}
+main{
+    background-color: #BDD4E0;
+    margin: 10px -20px;
+}
+footer{
+    background-color: #90C4DE;
+    padding: 20px;
+    text-align: center;
+    margin: -10px -20px;
+}
+main .conteiner{
+    display: flex;
+}
+.conteiner img{
+    width: 82%;
+    height: 600px;
+    margin: 20px;
+}
+.conteiner button{
+    width: 70px;
+    height: 250px;
+    margin: 200px 20px;
+    cursor: pointer;
+}
+button{
+    border: 1px solid black;
+    background-color: #A3F4FA;
+    padding: 10px;
+}
