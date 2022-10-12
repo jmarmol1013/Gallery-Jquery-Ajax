@@ -5,19 +5,21 @@ $.ajax({
     type:"GET",
     url: "Images.json",
     success:function(response){
+        var json = $.parseJSON(response);
         images = [
-            img1 = response[0],
-            img2 = response[1],
-            img3 = response[2], 
-            img4 = response[3],
-            img5 = response[4],
-            img6 = response[5],
-            img7 = response[6]
+            img1 = json[0],
+            img2 = json[1],
+            img3 = json[2], 
+            img4 = json[3],
+            img5 = json[4],
+            img6 = json[5],
+            img7 = json[6]
         ]
-        console.log(images);
+        console.log(json);
         display();
     }
 })
+
 
 
 // display image
